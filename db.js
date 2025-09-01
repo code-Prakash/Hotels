@@ -6,7 +6,7 @@ require('dotenv').config();
 const mongoURL = process.env.MONGODB_URL;
 
 //Setup Mongoose connection
-// mongoose.connect(mongoURL);.
+mongoose.connect(mongoURL);.
 
 
 //Get the default conection
